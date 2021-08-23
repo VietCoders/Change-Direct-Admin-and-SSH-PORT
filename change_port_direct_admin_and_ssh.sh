@@ -71,7 +71,7 @@ echo "                        Bạn chỉnh thành SELINUX=disabled";
 echo "";
 echo "           Sau khi thêm, sửa xong. Bạn nhấn ESC, tiếp theo nhấn :wq để thoát";
 echo "==============================================================================";
-pause '                      Nhấn [Enter] để KHỞI ĐỘNG LẠI...';
+pause '                      Nhấn [Enter] để tiếp tục...';
 echo "==============================================================================";
 echo "";
 vi /etc/sysconfig/selinux;
