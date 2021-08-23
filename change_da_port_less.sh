@@ -25,7 +25,7 @@ pause '                      Nhấn [Enter] để KHỞI ĐỘNG LẠI VPS...';
 echo "==============================================================================";
 echo "";
 cd /
-find . -name "change_port_direct_admin.sh" -delete;
+find . -name "change_da_port_less.sh" -delete;
 find . -name "csf_install.sh" -delete;
 history -c;
 reboot
